@@ -8,10 +8,10 @@ This model was developed to predict the next emerging variant in viral genomes, 
 By training an LSTM model on historical genomic sequences of a virus variants, and their patterns of emergence,
 the model can learn to identify subtle patterns and trends to predict potential future variants.
 Additionally, LSTM is capable of handling variable-length sequences, which is crucial given the variability in viral sequences across different strains and variants. 
-This software processes and analyzes DNA sequences using an **LSTM (Long Short-Term Memory) model**.
-It follows a structured pipeline for **sequence alignment, padding, encoding, window generation, hyperparameter tuning, and model training**.
 
 ## Features
+This software processes and analyzes DNA sequences using an **LSTM (Long Short-Term Memory) model**.
+It follows a structured pipeline for **sequence alignment, padding, encoding, window generation, hyperparameter tuning, and model training**.
 - Load and process DNA sequences from **FASTA** files.
 - Perform **sequence padding** for uniform lengths.
 - **One-hot encode** DNA sequences (`A, C, T, G, -`).
