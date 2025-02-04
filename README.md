@@ -1,4 +1,5 @@
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](#)
+[![CodeFactor](https://www.codefactor.io/repository/github/hoomanhanaei/lstm/badge)]
 
 # RNN-based LSTM
 
@@ -67,5 +68,3 @@ After successful execution, the output includes:
 
 - **Trained LSTM Model.**
 - **Logs & Metrics**
-
-[![CodeFactor](https://www.codefactor.io/repository/github/hoomanhanaei/lstm/badge)](https://www.codefactor.io/repository/github/hoomanhanaei/lstm)
