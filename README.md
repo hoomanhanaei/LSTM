@@ -31,8 +31,13 @@ It follows a structured pipeline for **sequence alignment, padding, encoding, wi
 ├── 📂 lstm_tuner/
 │   ├── tuner.py  # Hyperparameter tuning
 │   ├── model_builder.py  # Build LSTM model
-├── 📂 output/  # Stores trained models & results
+├── 📂 model/  # model's main script
 ├── main.py  # Main script to run the pipeline
 ├── README.md  # Project documentation
 
+```
+
+## Usage
+```
+python main.py --ref_path path/to/reference.fasta --mut_path path/to/mutated.fasta --num_mut_seqs --out_dir ./output
 ```
