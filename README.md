@@ -44,9 +44,9 @@ python main.py --ref_path path/to/reference.fasta --mut_path path/to/mutated.fas
 
 ## Arguments
 
-| Argument       | Description                                      |
+| Argument      | Description                                      |
 |---------------|--------------------------------------------------|
-| `--ref_path`  | Path to reference DNA sequence (FASTA format).  |
-| `--mut_path`  | Path to mutated DNA sequences (FASTA format).   |
+| `--ref_path`  | Path to reference sequence (FASTA format).  |
+| `--mut_path`  | Path to mutated sequences (FASTA format).   |
 | `--num_mut_seqs` | *(Optional)* Number of mutated sequences to process. |
 | `--out_dir`   | Output directory for aligned sequences. **Default:** `./output` |
