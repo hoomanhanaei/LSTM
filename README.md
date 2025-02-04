@@ -67,3 +67,5 @@ After successful execution, the output includes:
 
 - **Trained LSTM Model.**
 - **Logs & Metrics**
+
+[![CodeFactor](https://www.codefactor.io/repository/github/hoomanhanaei/lstm/badge)](https://www.codefactor.io/repository/github/hoomanhanaei/lstm)
