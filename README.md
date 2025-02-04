@@ -10,14 +10,14 @@ the model can learn to identify subtle patterns and trends to predict potential 
 Additionally, LSTM is capable of handling variable-length sequences, which is crucial given the variability in viral sequences across different strains and variants. 
 
 ## Features
-This software processes and analyzes DNA sequences using an **LSTM (Long Short-Term Memory) model**.
+This software processes and analyzes sequences using an **LSTM (Long Short-Term Memory) model**.
 It follows a structured pipeline for **sequence alignment, padding, encoding, window generation, hyperparameter tuning, and model training**.
-- Load and process DNA sequences from **FASTA** files.
-- Perform **sequence padding** for uniform lengths.
+- Loads and process DNA sequences from **FASTA** files.
+- Performs **sequence padding** for uniform lengths.
 - **One-hot encode** DNA sequences (`A, C, T, G, -`).
-- Generate **training windows** for model input.
-- Perform **hyperparameter tuning** for optimal LSTM training.
-- Train an **LSTM model** to predict future mutations.
+- Generates **training windows** for model input.
+- Performs **hyperparameter tuning** for optimal LSTM training.
+- Trains an **LSTM model** to predict future mutations.
 
 ## Project Structure
 
