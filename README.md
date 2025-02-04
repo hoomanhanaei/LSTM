@@ -21,3 +21,16 @@ It follows a structured pipeline for **sequence alignment, padding, encoding, wi
 
 ## Project Structure
 
+📂 project_root/
+├── 📂 modules/
+│   ├── data_loader.py  # Load sequences from FASTA files
+│   ├── sequence_padder.py  # Pad sequences to match reference length
+│   ├── encoder_decoder.py  # One-hot encode DNA sequences
+│   ├── window_generator.py  # Generate training windows
+│   ├── encoder_decoder.py  # Encode sequences into numerical format
+├── 📂 lstm_tuner/
+│   ├── tuner.py  # Hyperparameter tuning
+│   ├── model_builder.py  # Build LSTM model
+├── 📂 output/  # Stores trained models & results
+├── main.py  # Main script to run the pipeline
+├── README.md  # Project documentation
