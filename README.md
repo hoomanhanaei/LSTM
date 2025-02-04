@@ -19,6 +19,7 @@ It follows a structured pipeline for **sequence alignment, padding, encoding, wi
 - Performs **hyperparameter tuning** for optimal LSTM training.
 - Trains an **LSTM model** to predict future mutations.
 
+```
 ## Project Structure
 
 📂 project_root/
@@ -34,3 +35,5 @@ It follows a structured pipeline for **sequence alignment, padding, encoding, wi
 ├── 📂 output/  # Stores trained models & results
 ├── main.py  # Main script to run the pipeline
 ├── README.md  # Project documentation
+
+```
