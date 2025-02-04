@@ -66,5 +66,4 @@ python main.py --ref_path path/to/reference.fasta --mut_path path/to/mutated.fas
 After successful execution, the output includes:
 
 - **Trained LSTM Model.**
-- **Encoded & Processed Sequences**
 - **Logs & Metrics**
