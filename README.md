@@ -19,9 +19,8 @@ It follows a structured pipeline for **sequence alignment, padding, encoding, wi
 - Performs **hyperparameter tuning** for optimal LSTM training.
 - Trains an **LSTM model** to predict future mutations.
 
-```
 ## Project Structure
-
+```
 📂 project_root/
 ├── 📂 modules/
 │   ├── data_loader.py  # Load sequences from FASTA files
