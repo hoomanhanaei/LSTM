@@ -50,3 +50,14 @@ python main.py --ref_path path/to/reference.fasta --mut_path path/to/mutated.fas
 | `--mut_path`  | Path to mutated sequences (FASTA format).   |
 | `--num_mut_seqs` | *(Optional)* Number of mutated sequences to process. |
 | `--out_dir`   | Output directory for aligned sequences. **Default:** `./output` |
+
+## Pipeline Overview
+
+- **Load Sequences:** Reads FASTA files and extracts sequences.
+- **Sequence Padding:** Ensures all sequences are of uniform length.
+- **One-Hot Encoding:** Converts sequences into numerical format.
+- **Reshaping Data:** Prepares the encoded sequences for model input.
+- **Window Generation:** Creates training windows for sequence prediction.
+- **Dataset Batching:** Splits data into training and validation batches.
+- **Hyperparameter Tuning:** Optimizes LSTM model settings.
+- **Model Training:** Trains the LSTM model for sequence prediction.
