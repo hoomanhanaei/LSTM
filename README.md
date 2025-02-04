@@ -61,3 +61,10 @@ python main.py --ref_path path/to/reference.fasta --mut_path path/to/mutated.fas
 - **Dataset Batching:** Splits data into training and validation batches.
 - **Hyperparameter Tuning:** Optimizes LSTM model settings.
 - **Model Training:** Trains the LSTM model for sequence prediction.
+
+## Output
+After successful execution, the output includes:
+
+- **Trained LSTM Model.**
+- **Encoded & Processed Sequences**
+- **Logs & Metrics**
