@@ -41,3 +41,12 @@ It follows a structured pipeline for **sequence alignment, padding, encoding, wi
 ```
 python main.py --ref_path path/to/reference.fasta --mut_path path/to/mutated.fasta --num_mut_seqs --out_dir ./output
 ```
+
+## Arguments
+
+| Argument       | Description                                      |
+|---------------|--------------------------------------------------|
+| `--ref_path`  | Path to reference DNA sequence (FASTA format).  |
+| `--mut_path`  | Path to mutated DNA sequences (FASTA format).   |
+| `--num_mut_seqs` | *(Optional)* Number of mutated sequences to process. |
+| `--out_dir`   | Output directory for aligned sequences. **Default:** `./output` |
